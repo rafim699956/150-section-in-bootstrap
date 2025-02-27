@@ -1,0 +1,34 @@
+.img-50-width {
+    background: url(../img/mountain-9423779_1280.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 44%;
+    border-radius: 12px;
+}
+.video {
+    position: relative;
+    padding: 50px 0;
+}
+
+
+.check {
+    list-style: none;
+}
+
+.check li:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: red;
+}
+
+.check li {
+    position: relative;
+    padding-left: 42px;
+}
