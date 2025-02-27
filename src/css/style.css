@@ -1,0 +1,36 @@
+.zigzag-bg-1 {
+    background: url(../img/mountain-9423779_1280.jpg) no-repeat center / cover;
+}
+
+.zigzag-bg-2 {
+    overflow: hidden;
+    background: url(../img/sunset-6212218_1280.jpg) no-repeat center / cover;
+}
+
+.zigzag-text {
+    position: relative;
+    z-index: 2;
+    padding: 40px 56px 40px 0;
+}
+
+.zigzag-text:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -4900%;
+    width: 5000%;
+    bottom: 0;
+    background: green;
+    z-index: -1;
+    transform: skew(12deg);
+}
+
+.zigzag-bg-2 .zigzag-text:before {
+    left: auto;
+    right: -4900%;
+}
+
+.zigzag-bg-2 .zigzag-text {
+    padding-left: 56px;
+    padding-right: 0;
+}
