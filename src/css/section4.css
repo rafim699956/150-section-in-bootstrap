@@ -1,0 +1,33 @@
+/* .section-bg::before{
+   content: "";
+   position: relative;
+   left: 0;
+   top: 0;
+   background: url(../img/sunset-6212218_1280.jpg) no-repeat center /cover;
+   width: 400px;
+   height: 400px;
+}
+@media (min-width: 1200px) { 
+   .section-bg::before{
+      position: absolute;
+      width: 45%;
+      height: 100%;
+   }
+} */
+.section-padding {
+   padding: 2.5rem 0;
+}
+
+@media (min-width: 992px) {
+   .left-to-right-width {
+      position: absolute;
+      left: 0;
+      width: 45%;
+      bottom: 24px;
+      top: 24px;
+   }
+
+   section.section-padding.section-bg {
+      overflow: hidden;
+   }
+}
